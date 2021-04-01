@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: stretch;
+    font-family: Helvetica, sans-serif;
+    background-color: #77c99c;
+}
+
+#title-section-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#merch-section-container{
+    
+     width: auto;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    align-content: stretch;
+    
+}
+
+.merch-container{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    border-width: 3px;
+    border-color: darkgrey;
+    border-radius: 20px;
+    border-style: solid;
+    align-content: stretch;
+    align-items: center;
+    padding: 10px;
+    width: 200px;
+    height: 225px;
+    background-color: whitesmoke;
+}
+
+.merch-image{
+    width: 100px;
+    height: auto;
+}
+.merch-descripton{
+    padding: 10px;
+    text-align: center;
+}
+#tshirt-merch-description{
+    padding-top: 12px;
+}
+#hat-merch-description{
+    padding-top: 31px;
+}
+
+.merch-container:hover{
+    width: 225px;
+    height: 250px;
+}
